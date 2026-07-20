@@ -23,11 +23,18 @@ jobs:
       - name: Validate and build package
         run: python scripts/validate_project.py
 
-      - name: Create GitHub Release
-        run: >-
-          gh release create "$GITHUB_REF_NAME"
-          dist/*.zip dist/*.sha256
-          --title "Craft of the Titans 1.30 zh-TW $GITHUB_REF_NAME"
-          --generate-notes
+      - name: Create or update GitHub Release
+        shell: bash
+        run: |
+          if gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1; then
+            gh release upload "$GITHUB_REF_NAME" \
+              dist/*.zip dist/*.sha256 \
+              --clobber
+          else
+            gh release create "$GITHUB_REF_NAME" \
+              dist/*.zip dist/*.sha256 \
+              --title "Craft of the Titans 1.30 zh-TW $GITHUB_REF_NAME" \
+              --generate-notes
+          fi
         env:
           GH_TOKEN: ${{ github.token }}

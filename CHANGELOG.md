@@ -14,6 +14,7 @@
 - 漢化內容採 CC BY-NC 4.0、維護腳本採 PolyForm Noncommercial 1.0.0，
   排除商業與營利用途。
 - 記錄原作者 BoolymanMC、CurseForge 原始頁面與 Public Domain 授權標示。
+- 發佈壓縮檔隨附授權條款與原作／第三方聲明。
 
 ### 相容性
 
