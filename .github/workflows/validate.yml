@@ -1,0 +1,33 @@
+name: Validate localization
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Validate and build package
+        run: python scripts/validate_project.py
+
+      - name: Upload validation artifact
+        uses: actions/upload-artifact@v5
+        with:
+          name: craft-of-the-titans-1.30-zh-tw
+          path: |
+            dist/*.zip
+            dist/*.sha256
+          if-no-files-found: error

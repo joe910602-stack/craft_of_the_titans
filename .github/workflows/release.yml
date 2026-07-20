@@ -1,0 +1,33 @@
+name: Publish release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Validate and build package
+        run: python scripts/validate_project.py
+
+      - name: Create GitHub Release
+        run: >-
+          gh release create "$GITHUB_REF_NAME"
+          dist/*.zip dist/*.sha256
+          --title "Craft of the Titans 1.30 zh-TW $GITHUB_REF_NAME"
+          --generate-notes
+        env:
+          GH_TOKEN: ${{ github.token }}

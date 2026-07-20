@@ -1,0 +1,227 @@
+{
+  "templatename": "New Template1",
+  "features": [
+    {
+      "xPos": 21,
+      "yPos": 200,
+      "width": 18.0,
+      "height": 10.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+        "properties": {
+          "action": {
+            "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+            "properties": {}
+          },
+          "size": 1.0,
+          "leftClick": true,
+          "rightClick": true,
+          "otherClick": false,
+          "tooltip": "",
+          "hoverText": "",
+          "hoverXOffset": 0,
+          "hoverYOffset": 0,
+          "unhoveredText": "",
+          "unhoveredXOffset": 0,
+          "unhoveredYOffset": 0,
+          "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+          "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+        }
+      },
+      "isLocked": true,
+      "isHidden": false,
+      "layerIndex": 0
+    },
+    {
+      "xPos": 387,
+      "yPos": 200,
+      "width": 18.0,
+      "height": 10.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+        "properties": {
+          "action": {
+            "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+            "properties": {}
+          },
+          "size": 1.0,
+          "leftClick": true,
+          "rightClick": true,
+          "otherClick": false,
+          "tooltip": "",
+          "hoverText": "",
+          "hoverXOffset": 0,
+          "hoverYOffset": 0,
+          "unhoveredText": "",
+          "unhoveredXOffset": 0,
+          "unhoveredYOffset": 0,
+          "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+          "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+        }
+      },
+      "isLocked": true,
+      "isHidden": false,
+      "layerIndex": 1
+    },
+    {
+      "xPos": 29,
+      "yPos": 3,
+      "width": 154.0,
+      "height": 50.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+        "properties": {
+          "path": "enchiridion:images/Craft_Of_The_Titans_Guide/Intro.png"
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 2
+    },
+    {
+      "xPos": 28,
+      "yPos": 46,
+      "width": 169.0,
+      "height": 46.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureText",
+        "properties": {
+          "text": "     \"Breaking the Fourth Wall\" here, this section will discuss some of the exacts of what is changed in this pack, without dilluting it with roleplay or lore.",
+          "size": 1.0
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 3
+    },
+    {
+      "xPos": 170,
+      "yPos": 91,
+      "width": 21.0,
+      "height": 21.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "item": "sccraftingrunes:ItemLegendaryMat",
+          "hideTooltip": false
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 4
+    },
+    {
+      "xPos": 142,
+      "yPos": 91,
+      "width": 21.0,
+      "height": 21.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "item": "sccraftingrunes:ItemRareMat",
+          "hideTooltip": false
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 5
+    },
+    {
+      "xPos": 131,
+      "yPos": 112,
+      "width": 29.0,
+      "height": 29.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "item": "sccraftingrunes:ItemUncommonMat",
+          "hideTooltip": false
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 6
+    },
+    {
+      "xPos": 158,
+      "yPos": 113,
+      "width": 30.0,
+      "height": 30.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "item": "sccraftingrunes:ItemCommonMat",
+          "hideTooltip": false
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 7
+    },
+    {
+      "xPos": 25,
+      "yPos": 98,
+      "width": 101.0,
+      "height": 37.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureText",
+        "properties": {
+          "text": "     Titan runes are relics that you will find, loot, or recieve throughout your journey.  Some of ",
+          "size": 1.0
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 8
+    },
+    {
+      "xPos": 25,
+      "yPos": 144,
+      "width": 172.0,
+      "height": 53.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureText",
+        "properties": {
+          "text": "them will be used to trade for rare materials that can not be gotten any other way.  Others may be used in crafting themselves.",
+          "size": 1.0
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 9
+    },
+    {
+      "xPos": 236,
+      "yPos": 23,
+      "width": 154.0,
+      "height": 107.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureText",
+        "properties": {
+          "text": "     The biggest focus of this pack is exploration.  You MUST go dungeon crawling, treasure hunting, spelunking, cave diving, and mining.  There are no early or mid-game quarries, there are no easy-outs for getting rare materials.  This modpack will take you back to the roots of Minecraft, when you hit the road and pounded dirt to build your empire.  ",
+          "size": 1.0
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 10
+    },
+    {
+      "xPos": 0,
+      "yPos": 0,
+      "width": 16.0,
+      "height": 16.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "item": "enderio:blockFusedQuartz_enlightenedFusedGlass 9",
+          "hideTooltip": false
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 11
+    }
+  ],
+  "uniquename": "New_Template1_1483916240547"
+}

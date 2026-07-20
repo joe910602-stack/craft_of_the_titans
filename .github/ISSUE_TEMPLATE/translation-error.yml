@@ -1,0 +1,51 @@
+name: 翻譯問題
+description: 回報錯譯、漏譯、亂碼或術語不一致
+title: "[翻譯] "
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: 問題範圍
+      options:
+        - Better Questing 任務書
+        - Craft of the Titans 指南
+        - 血魔法祭壇指南
+        - 安裝或亂碼
+        - 其他
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: 任務、章節或頁面名稱
+      placeholder: 請填寫可以定位問題的位置
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: 目前顯示內容
+      description: 請完整貼上有問題的句子；可附上遊戲截圖。
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 建議譯法或預期結果
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: 補充資訊
+      description: 包含是否使用簡體中文漢化資源包、重現步驟等。
+
+  - type: checkboxes
+    id: version
+    attributes:
+      label: 版本確認
+      options:
+        - label: 我使用 Craft of the Titans 1.30。
+          required: true

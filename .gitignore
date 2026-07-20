@@ -1,0 +1,35 @@
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Editors and operating systems
+.agents/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary and backup files
+*.tmp
+*.bak
+*.log
+
+# Locally generated release artifacts
+dist/
+
+# Unused or unrelated files from the original modpack config
+/original/betterquesting/resources/craftofthetitans/textures/
+/original/BloodMagic/armorplus/
+/original/BloodMagic/meteors/
+/original/BloodMagic/MobProperties/
+/original/BloodMagic/BloodMagic.cfg
+/original/BloodMagic/enchiridion/books/icons/
+/original/BloodMagic/enchiridion/books/images/
+/original/BloodMagic/enchiridion/enchiridion.cfg
+/original/BloodMagic/enchiridion/library/
+/original/BloodMagic/enchiridion/templates/*.png
+/original/enchiridion/books/icons/
+/original/enchiridion/books/images/
+/original/enchiridion/enchiridion.cfg
+/original/enchiridion/library/
+/original/enchiridion/templates/*.png

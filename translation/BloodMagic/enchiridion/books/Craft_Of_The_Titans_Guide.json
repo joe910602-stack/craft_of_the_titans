@@ -1,0 +1,2420 @@
+{
+  "modid": "",
+  "uniqueName": "Craft_Of_The_Titans_Guide",
+  "saveName": "Craft_Of_The_Titans_Guide",
+  "displayName": "Craft of the Titans \u6307\u5357",
+  "displayInfo": "",
+  "colorHex": "FFFFFFFF",
+  "language": "en_US",
+  "hasCustomIcon": true,
+  "showBackground": true,
+  "legacyTexture": false,
+  "backgroundResource": "enchiridion:textures/books/rustic2.png",
+  "backgroundStartX": -10,
+  "backgroundStartY": -10,
+  "backgroundEndX": 440,
+  "backgroundEndY": 240,
+  "defaultPage": 0,
+  "isLocked": false,
+  "forgetPageOnClose": false,
+  "book": [
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 24,
+          "yPos": 19,
+          "width": 174.0,
+          "height": 82.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "     \u672c\u6a21\u7d44\u5305\u7684\u751f\u7269\u96e3\u5ea6\u6703\u96a8\u904a\u6232\u9032\u5ea6\u5927\u5e45\u63d0\u5347\uff0c\u56e0\u6b64\u4f60\u53ea\u6709\u4e00\u5c0f\u6bb5\u6642\u9593\u53ef\u4ee5\u5efa\u7acb\u4e26\u4fdd\u8b77\u57fa\u5730\u3002\u9019\u61c9\u8a72\u662f\u524d 3 \u5929\u7684\u6700\u512a\u5148\u76ee\u6a19\uff1b\u5982\u679c\u6c92\u6709\u70ba\u7b2c\u4e00\u6b21\u8840\u6708\u505a\u597d\u6e96\u5099\uff0c\u4f60\u548c\u57fa\u5730\u5f88\u53ef\u80fd\u6703\u4e00\u8d77\u88ab\u6467\u6bc0\u3002",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 129,
+          "yPos": 114,
+          "width": 75.0,
+          "height": 72.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Craft_Of_The_Titans_Guide/2017-01-07 17_04_44-Greenshot.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 24,
+          "yPos": 111,
+          "width": 101.0,
+          "height": 85.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "    \u9019\u500b\u6a21\u7d44\u5305\u4e2d\u7684\u751f\u7269\u8070\u660e\u5f97\u591a\u3002\u5b83\u5011\u6703\u651c\u5e36\u70b8\u85e5\u70b8\u6bc0\u7246\u58c1\u3001\u5806\u758a\u65b9\u584a\u722c\u5230\u9ad8\u8655\u6293\u4f60\uff1b\u5982\u679c\u8a66\u5716\u628a\u57fa\u5730\u85cf\u5728\u5730\u4e0b\uff0c\u5b83\u5011\u4e5f\u6703\u6316\u9032\u4f86\u3002",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 309,
+          "yPos": 35,
+          "width": 101.0,
+          "height": 79.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "     \u7121\u8ad6\u662f\u4fdd\u885b\u57fa\u5730\uff0c\u9084\u662f\u95d6\u904e\u985e\u300aDoom\u300b\u5730\u7262\uff0c\u6230\u9b25\u90fd\u6703\u6210\u70ba\u65e5\u5e38\u3002Craft of the Titans \u5c0d",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 231,
+          "yPos": 32,
+          "width": 34.0,
+          "height": 34.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "openmodularturrets:grenade_turret",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 278,
+          "yPos": 75,
+          "width": 30.0,
+          "height": 30.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "openmodularturrets:potato_cannon_turret",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 259,
+          "yPos": 62,
+          "width": 25.0,
+          "height": 25.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "extrautils2:spike_diamond",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 268,
+          "yPos": 35,
+          "width": 31.0,
+          "height": 31.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "armorplus:lava_battle_axe 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 9
+        },
+        {
+          "xPos": 230,
+          "yPos": 68,
+          "width": 33.0,
+          "height": 33.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "immersiveengineering:revolver 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 10
+        },
+        {
+          "xPos": 230,
+          "yPos": 118,
+          "width": 180.0,
+          "height": 85.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "\u6230\u9b25\u63a1\u53d6\u4e86\u8207\u591a\u6578\u6a21\u7d44\u5305\u4e0d\u540c\u7684\u8a2d\u8a08\u3002\u4e00\u822c\u60c5\u6cc1\u4e0b\uff0c\u751f\u7269\u4e0d\u662f\u5f37\u5f97\u904e\u982d\uff0c\u8b93\u4f60\u6574\u5834\u904a\u6232\u90fd\u63d0\u5fc3\u540a\u81bd\uff1b\u5c31\u662f\u73a9\u5bb6\u592a\u904e\u5f37\u5927\uff0c\u4f7f\u6230\u9b25\u6dea\u70ba\u7121\u804a\u7684\u6309\u9375\u9023\u6253\u3002\u5728 Craft of the Titans \u4e2d\uff0c\u4f60\u8207\u9762\u5c0d\u7684\u6575\u4eba\u90fd\u6703\u6210\u70ba\u4e0d\u5bb9 ",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 11
+        }
+      ],
+      "pageNumber": 3,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        }
+      ],
+      "pageNumber": 156,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 25,
+          "yPos": 20,
+          "width": 175.0,
+          "height": 82.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "\u5c0f\u89b7\u7684\u5f37\u5927\u529b\u91cf\u3002\u90a3\u7a2e\u7531\u4e00\u500b\u6a21\u7d44\u5305\u8fa6\u6240\u6709\u6700\u5f37\u6b66\u5668\uff0c\u5bb3\u4f60\u5f8c\u671f\u53ea\u80fd\u6b7b\u5b88\u540c\u4e00\u6839\u6cd5\u6756\u6216\u540c\u4e00\u628a\u5f13\u7684\u65e5\u5b50\u5df2\u7d93\u7d50\u675f\u4e86\uff08\u5c31\u662f\u5728\u8aaa\u4f60\uff0c\u9f8d\u4e4b\u9032\u5316\uff09\u3002CoTT \u5df2\u8abf\u6574\u591a\u500b\u6a21\u7d44\u7684\u6b66\u5668\uff0c\u4f7f\u5b83\u5011\u90fd\u80fd\u6210\u70ba\u5f37\u5927\u53ef\u884c\u7684\u5f8c\u671f\u9078\u64c7\u3002  \n\n\n\n\n\n\n\n",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 24,
+          "yPos": 103,
+          "width": 175.0,
+          "height": 62.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Craft_Of_The_Titans_Guide/2017-01-08 17_47_49-Greenshot.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 25,
+          "yPos": 166,
+          "width": 173.0,
+          "height": 34.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "\u6240\u4ee5\uff0c\u7121\u8ad6\u4f60\u60f3\u63ee\u821e\u5de8\u578b\u6230\u65a7\u8207\u76fe\u724c\uff0c\u9084\u662f\u96d9\u6301\u4e00\u5c0d\u897f\u90e8\u5de6\u8f2a\u624b\u69cd\uff0c\u90fd ",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 229,
+          "yPos": 21,
+          "width": 183.0,
+          "height": 115.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "\u8fa6\u5f97\u5230\uff0c\u800c\u4e14\u4e0d\u5fc5\u72a7\u7272\u5a01\u529b\u3002\u7528\u4f60\u60f3\u8981\u7684\u65b9\u5f0f\u6230\u9b25\uff0c\u4e0d\u5fc5\u88ab\u55ae\u4e00\u6a21\u7d44\u9650\u5236\u3002\u4e8b\u5be6\u4e0a\uff0c\u5efa\u8b70\u96a8\u6642\u6e96\u5099\u5e7e\u7a2e\u9078\u64c7\u3002\u9047\u5230\u91cd\u7532\u6575\u4eba\u6642\uff0c\u5148\u4f7f\u7528\u5de6\u8f2a\u624b\u69cd\u7684\u7a7f\u7532\u5f48\uff0c\u518d\u5207\u63db\u6210\u904e\u5ea6\u5f37\u5316\u7684\u5320\u9b42\u942e\u5200\uff0c\u5c0d\u5176\u624b\u4e0b\u9020\u6210\u7bc4\u570d\u50b7\u5bb3\u3002CoTT \u7684\u6230\u9b25\u5f88\u6709\u8da3\uff0c\u9078\u64c7\u4e5f\u6c92\u6709\u6975\u9650\u3002 ",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 364,
+          "yPos": 130,
+          "width": 30.0,
+          "height": 30.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "inventorypets:wither_pet 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 380,
+          "yPos": 159,
+          "width": 36.0,
+          "height": 36.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "petbat:fed_pet_bat 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 342,
+          "yPos": 155,
+          "width": 35.0,
+          "height": 35.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "inventorypets:creeper_pet 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 229,
+          "yPos": 131,
+          "width": 118.0,
+          "height": 74.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "     \u9664\u4e86\u6b66\u5668\uff0c\u9084\u6709\u6230\u9b25\u5bf5\u7269\u8207\u7269\u54c1\u6b04\u5bf5\u7269\u53ef\u4ee5\u5354\u52a9\u4f60\u3002\u8a13\u7df4\u5c08\u5c6c\u7684\u6230\u9b25\u8759\u8760\uff0c\u8b93\u5b83\u5728\u6575\u4eba\u5468\u570d\u98db\u884c\u653b\u64ca\uff0c\u4e26\u85c9\u8457\u5347\u7d1a\u8b8a\u5f97\u66f4\u5f37\u3002",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 9
+        }
+      ],
+      "pageNumber": 4,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 30,
+          "yPos": 15,
+          "width": 166.0,
+          "height": 75.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "\u62d3\u5c55\u4f60\u7684\u5e1d\u570b\u800c\u611f\u5230\u7121\u804a\u3002\u5bb6\u9109\u6709\u6578\u767e\u4eba\u4ef0\u8cf4\u4f60\u5bc4\u56de\u7684\u88dc\u7d66\u5305\u3002\u5404\u500b\u5bb6\u5ead\u9700\u8981\u4f60\u751f\u7522\u7684\u4f5c\u7269\u8207\u9910\u9ede\uff0c\u79d1\u5b78\u5bb6\u9700\u8981\u4f60\u627e\u5230\u7684\u6a19\u672c\u8207\u751f\u7269\u6389\u843d\u7269\uff0c\u5c31\u9023\u8ecd\u65b9\u4e5f\u59d4\u8a17\u4f60\u63d0\u4f9b\u6316\u6398\u6642\u53d6\u5f97\u7684\u5316\u5b78\u6d41\u9ad4\u3002",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 158,
+          "yPos": 106,
+          "width": 27.0,
+          "height": 27.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "agricraft:debugger",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 126,
+          "yPos": 127,
+          "width": 37.0,
+          "height": 37.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "aether_legacy:skyroot_bucket 3",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 157,
+          "yPos": 144,
+          "width": 35.0,
+          "height": 35.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "junglemobs:poopcharge",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 27,
+          "yPos": 110,
+          "width": 100.0,
+          "height": 88.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "     \u4f5c\u70ba\u88dc\u7d66\u5305\u8207\u7269\u8cc7\u7684\u56de\u5831\uff0c\u5bb6\u9109\u5b89\u5168\u5718\u968a\u6703\u9001\u4f86\u6cf0\u5766\u7b26\u6587\uff0c\u53ef\u4ee5\u7528\u4f86\u4ea4\u63db\u5f37\u529b\u7269\u54c1\u8207\u5408\u6210\u6750\u6599\u3002",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        }
+      ],
+      "pageNumber": 8,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 234,
+          "yPos": 0,
+          "width": 158.0,
+          "height": 60.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Craft_Of_The_Titans_Guide/Care Package.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 230,
+          "yPos": 56,
+          "width": 124.0,
+          "height": 98.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "     \u6211\u5011\u90fd\u559c\u6b61\u81ea\u52d5\u5316\u3001\u5927\u578b\u8fb2\u5834\u3001\u5237\u602a\u5854\u3001\u63a1\u77f3\u5834\u7b49\u7b49\u3002\u4f46\u5728\u591a\u6578\u6a21\u7d44\u5305\u4e2d\uff0c\u7b49\u4f60\u6709\u8cc7\u6e90\u5efa\u9020\u9019\u4e9b\u8a2d\u65bd\u6642\uff0c\u5f80\u5f80\u904e\u4e0d\u4e86\u591a\u4e45\u5c31\u4e0d\u518d\u9700\u8981\u5b83\u5011\u4e86\u3002 ",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 356,
+          "yPos": 104,
+          "width": 50.0,
+          "height": 50.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "mekfarm:animal_farm",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 235,
+          "yPos": 159,
+          "width": 173.0,
+          "height": 44.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "     \u4e0d\u6703\u518d\u56e0\u70ba\u7d2f\u7a4d\u4e86\u592a\u591a Minecraft \u8ca1\u5bcc\uff0c\u800c\u89ba\u5f97\u6c92\u6709\u5fc5\u8981\u7e7c\u7e8c",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 1,
+          "yPos": 16,
+          "width": 187.0,
+          "height": 24.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Craft_Of_The_Titans_Guide/Combat.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 18,
+          "yPos": 46,
+          "width": 187.0,
+          "height": 153.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "\u5c0d\u4ed8\u672c\u6a21\u7d44\u5305\u4e2d\u7684\u67d0\u4e9b\u6cf0\u5766\u6642\uff0c\u5fc5\u9808\u8df3\u812b\u6846\u67b6\u601d\u8003\uff0c\u4e0d\u80fd\u55ae\u9760\u883b\u529b\u6253\u7a7f\u6bcf\u5834\u6230\u9b25\u3002\u7576\u5b88\u8b77\u8005\u80fd\u964d\u4f4e 90% \u7684\u6240\u6709\u50b7\u5bb3\uff0c\u6216\u53cd\u904e\u4f86\u5f9e\u7269\u7406\u50b7\u5bb3\u4e2d\u6cbb\u7642\u81ea\u5df1\u6642\uff0c\u4f60\u8a72\u600e\u9ebc\u8fa6\uff1f  \n     \u9019\u500b\u6a21\u7d44\u5305\u63d0\u4f9b\u5927\u91cf\u5de5\u5177\uff0c\u8acb\u5584\u52a0\u5229\u7528\u3002\u5982\u679c\u9700\u8981\u628a Boss \u53ec\u559a\u5230\u4f48\u6eff\u7832\u5854\u7684\u7af6\u6280\u5834\uff0c\u5c31\u9019\u9ebc\u505a\u3002\u5982\u679c\u9700\u8981\u5b78\u7fd2\u80fd\u9020\u6210\u7368\u7279\u300c\u6eba\u6c34\u300d\u50b7\u5bb3\u7684\u5f37\u529b Ars Magica \u6cd5\u8853\uff0c\u4e5f\u5c31\u9019\u9ebc\u505a\u3002\u6bcf\u5834\u6230\u9b25\u7e3d\u6709\u5c0d\u61c9\u7684\u89e3\u6cd5\u3002",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 356,
+          "yPos": 59,
+          "width": 42.0,
+          "height": 42.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "grimoireofgaia:item.BoxGold",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        }
+      ],
+      "pageNumber": 7,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 46,
+          "yPos": 15,
+          "width": 134.0,
+          "height": 73.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Craft_Of_The_Titans_Guide/SwordTitle.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 26,
+          "yPos": 99,
+          "width": 174.0,
+          "height": 92.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "      \u6b61\u8fce\u4f86\u5230 Craft of the Titans\u3002\u4f60\u7684\u4efb\u52d9\u662f\u63a2\u7d22\u5ee3\u95ca\u5371\u96aa\u7684\u571f\u5730\uff0c\u63a0\u596a\u8cc7\u6e90\u9001\u56de\u5bb6\u9109\uff0c\u4e26\u5f81\u670d\u64cb\u5728\u8def\u4e0a\u7684\u50b3\u8aaa\u6cf0\u5766\u3002            \n      \u4f60\u5fc5\u9808\u5584\u7528\u6240\u6709\u53ef\u7528\u7684\u5f37\u529b\u5de5\u5177\uff0c\u56e0\u70ba\u6575\u4eba\u7d55\u4e0d\u6703\u624b\u4e0b\u7559\u60c5\u3002",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 236,
+          "yPos": 24,
+          "width": 172.0,
+          "height": 58.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "\u9019\u662f\u4e00\u500b\u6df7\u5408\u578b\u4efb\u52d9\u6a21\u7d44\u5305\u3002\u4efb\u52d9\u6703\u6982\u7565\u5f15\u5c0e\u4f60\u63a8\u9032\u904a\u6232\u7684\u4e0d\u540c\u9762\u5411\uff0c\u4f46\u4e0d\u6703\u5728\u6bcf\u500b\u5c0f\u6b65\u9a5f\u4e0a\u727d\u8457\u4f60\u7684\u624b\u3002",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 354,
+          "yPos": 83,
+          "width": 47.0,
+          "height": 47.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "bqt:mpad",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 236,
+          "yPos": 79,
+          "width": 118.0,
+          "height": 58.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "    \u9810\u8a2d\u6309\u6ce2\u6d6a\u865f\u9375\u300c~\u300d\u53ef\u958b\u555f Better Questing \u4ecb\u9762\u3002\u5b8c\u6210\u7b2c\u4e00\u9805\u4efb\u52d9\u6642\uff0c\u4f60\u6703\u53d6\u5f97\u4e00\u4efd\u5be6\u9ad4\u526f\u672c\u3002",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 233,
+          "yPos": 137,
+          "width": 166.0,
+          "height": 64.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "     \u9019\u672c\u53c3\u8003\u624b\u518a\u6703\u8aaa\u660e\u672c\u6a21\u7d44\u5305\u8af8\u591a\u7368\u7279\u8a2d\u8a08\u4e2d\u7684\u4e00\u90e8\u5206\u3002\u914d\u65b9\u8b8a\u66f4\u3001\u88dd\u5099\u8abf\u6574\u8207\u9032\u5ea6\u8def\u7dda\u90fd\u7d93\u904e\u81ea\u8a02\uff1b\u5982\u679c\u5361\u95dc\uff0c\u53ef\u4ee5\u4f86\u9019\u88e1\u5c0b\u627e\u63d0\u793a\u3002",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        }
+      ],
+      "pageNumber": 0,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 34,
+          "yPos": 5,
+          "width": 154.0,
+          "height": 50.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Craft_Of_The_Titans_Guide/Intro.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 28,
+          "yPos": 46,
+          "width": 169.0,
+          "height": 46.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "     \u300c\u9019\u500b\u6a21\u7d44\u5305\u6703\u5fb9\u5e95\u8003\u9a57\u4f60\u3002\u5728\u7ad9\u7a69\u8173\u6b65\u524d\uff0c\u524d\u671f\u6709\u5927\u91cf\u6230\u9b25\uff0c\u6642\u9593\u975e\u5e38\u5bf6\u8cb4\u3002  ",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 179,
+          "yPos": 89,
+          "width": 21.0,
+          "height": 21.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "sccraftingrunes:ItemLegendaryMat",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 150,
+          "yPos": 89,
+          "width": 21.0,
+          "height": 21.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "sccraftingrunes:ItemRareMat",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 144,
+          "yPos": 112,
+          "width": 29.0,
+          "height": 29.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "sccraftingrunes:ItemUncommonMat",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 166,
+          "yPos": 112,
+          "width": 30.0,
+          "height": 30.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "sccraftingrunes:ItemCommonMat",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 29,
+          "yPos": 91,
+          "width": 123.0,
+          "height": 51.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "     \u6cf0\u5766\u7b26\u6587\u662f\u80fd\u5728\u5730\u7262\u4e2d\u627e\u5230\u7684\u907a\u7269\uff0c\u4e5f\u53ef\u4f5c\u70ba\u5c07\u5927\u578b\u88dc\u7d66\u5305\u9001\u56de\u5bb6\u9109\u7684\u734e\u52f5\u53d6\u5f97\u3002",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 29,
+          "yPos": 147,
+          "width": 172.0,
+          "height": 53.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "    \u67d0\u4e9b\u6cf0\u5766\u7b26\u6587\u5167\u542b\u80fd\u91cf\uff0c\u80fd\u5728\u7279\u5b9a\u5408\u6210\u914d\u65b9\u4e2d\u5145\u7576\u89f8\u5a92\uff1b\u53e6\u4e00\u4e9b\u5247\u4f3c\u4e4e\u9677\u5165\u6c89\u7720\uff0c\u9069\u5408\u62ff\u4f86\u4ea4\u6613\u3002",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 9
+        },
+        {
+          "xPos": 236,
+          "yPos": 23,
+          "width": 103.0,
+          "height": 182.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "     \u672c\u6a21\u7d44\u5305\u6700\u91cd\u8996\u63a2\u7d22\u3002\u4f60\u5fc5\u9808\u6df1\u5165\u5730\u7262\u3001\u5c0b\u5bf6\u3001\u6d1e\u7a74\u63a2\u96aa\u3001\u6f5b\u5165\u6d1e\u7a9f\u8207\u9032\u884c\u63a1\u7926\u3002\u524d\u671f\u6c92\u6709\u63a1\u77f3\u5834\uff0c\u53d6\u5f97\u7a00\u6709\u6750\u6599\u4e5f\u6c92\u6709\u6377\u5f91\u3002\u7d93\u904e\u81ea\u8a02\u8abf\u6574\u7684\u5730\u5f62\u751f\u6210\u3001\u5730\u7262\u7cfb\u7d71\u8207\u6230\u5229\u54c1\u751f\u6210\uff0c\u6703\u8b93\u6bcf\u6b21\u9060\u5f81\u90fd\u7368\u7279\u800c\u523a\u6fc0\u3002 ",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 10
+        },
+        {
+          "xPos": 344,
+          "yPos": 26,
+          "width": 62.0,
+          "height": 150.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Craft_Of_The_Titans_Guide/2017-01-08 15_04_14-Greenshot.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 11
+        }
+      ],
+      "pageNumber": 1,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 16,
+          "yPos": 16,
+          "width": 182.0,
+          "height": 24.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Craft_Of_The_Titans_Guide/Crafting.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 18,
+          "yPos": 42,
+          "width": 188.0,
+          "height": 147.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "\u672c\u6a21\u7d44\u5305\u7d93\u904e\u5927\u5e45\u4fee\u6539\uff0c\u65e8\u5728\u63d0\u4f9b\u517c\u5177\u6311\u6230\u6027\u8207\u6210\u5c31\u611f\u7684\u9ad4\u9a57\u3002\u5343\u842c\u4e0d\u8981\u5047\u8a2d\u5176\u4e2d\u4efb\u4f55\u6a21\u7d44\u90fd\u548c\u4f60\u5728\u5176\u4ed6\u6a21\u7d44\u5305\u4e2d\u73a9\u904e\u7684\u4e00\u6a23\u3002\u4f60\u904e\u53bb\u53ef\u80fd\u80fd\u7a7f\u8457\u67d0\u5957\u8b77\u7532\u98db\u884c\uff0c\u4f46\u5728\u9019\u88e1\u4e0d\u884c\uff1b\u67d0\u7a2e\u767c\u96fb\u6a5f\u5728\u5225\u7684\u6a21\u7d44\u5305\u8f38\u51fa\u4e0d\u9ad8\uff0c\u5728\u9019\u88e1\u537b\u80fd\u7522\u751f\u5927\u91cf\u96fb\u529b\uff1b\u751f\u7269\u5728\u5176\u4ed6\u6a21\u7d44\u5305\u6703\u6389\u843d\u7684\u7269\u54c1\uff0c\u5728\u9019\u88e1\u4e5f\u53ef\u80fd\u4e0d\u540c\u3002\u8acb\u628a\u9019\u500b\u6a21\u7d44\u5305\u4e2d\u7684\u6a21\u7d44\u90fd\u7576\u6210\u5168\u65b0\u5167\u5bb9\u770b\u5f85\uff1b\u5b83\u5011\u53ef\u80fd\u771f\u7684\u5df2\u7d93\u8b8a\u5f97\u5b8c\u5168\u4e0d\u540c\u3002   ",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 233,
+          "yPos": 11,
+          "width": 170.0,
+          "height": 27.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Craft_Of_The_Titans_Guide/Power.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 230,
+          "yPos": 40,
+          "width": 182.0,
+          "height": 52.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "\u672c\u6a21\u7d44\u5305\u7684\u80fd\u6e90\u767c\u5c55\u5177\u6709\u968e\u6bb5\u6027\u3002\u96a8\u8457\u904a\u6232\u9032\u5ea6\u63a8\u9032\uff0c\u80fd\u53d6\u5f97\u7684\u7a00\u6709\u6750\u6599\u4e5f\u6703\u6108\u4f86\u6108\u591a\u3002\u5982\u679c\u914d\u65b9\u9700\u8981\u4f60\u5c1a\u672a\u64c1\u6709\u7684\u6750\u6599\uff0c\u5b83\u53ef\u80fd\u4f86\u81ea\u9084\u6c92\u53bb\u904e\u7684\u7dad\u5ea6\u3002",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 228,
+          "yPos": 100,
+          "width": 30.0,
+          "height": 30.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "simpleores:onyx_ore",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 258,
+          "yPos": 98,
+          "width": 153.0,
+          "height": 59.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "\u7e1e\u746a\u7459\u662f\u53ea\u80fd\u5728\u5730\u7344\u627e\u5230\u7684\u7a00\u6709\u6750\u6599\u3002\u5b83\u7194\u878d\u5f8c\u6703\u8b8a\u5f97\u66f4\u5f37\uff0c\u662f\u5320\u9b42\u7684\u9802\u968e\u6750\u6599\u3002",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 229,
+          "yPos": 155,
+          "width": 28.0,
+          "height": 28.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "armorplus:lava_crystal 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 258,
+          "yPos": 154,
+          "width": 148.0,
+          "height": 50.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "\u7194\u5ca9\u6c34\u6676\u6975\u5c11\u751f\u6210\u65bc\u4e3b\u4e16\u754c\u6df1\u8655\uff0c\u4f46\u5728\u5730\u7344\u5341\u5206\u5e38\u898b",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 9
+        }
+      ],
+      "pageNumber": 5,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 15,
+          "yPos": 45,
+          "width": 22.0,
+          "height": 22.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "bigreactors:minerals 1",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 25,
+          "yPos": 68,
+          "width": 22.0,
+          "height": 22.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "bigreactors:minerals 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 47,
+          "yPos": 25,
+          "width": 151.0,
+          "height": 85.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "\u786b\u9178\u925b\u7926\u8207\u85cd\u9310\u7926\u662f\u53ea\u80fd\u5728\u9059\u9060\u300c\u5730\u5e95\u4e16\u754c\u300d\u7dad\u5ea6\u767c\u73fe\u7684\u80fd\u91cf\u6c34\u6676\u3002\u5b83\u5011\u5e38\u7528\u65bc\u5efa\u9020\u53cd\u61c9\u7210\u7b49\u80fd\u6e90\u4f86\u6e90\uff0c\u4e5f\u6703\u7528\u4f86\u88fd\u4f5c\u80fd\u904b\u7528\u5176\u5167\u5728\u80fd\u91cf\u7684\u98fe\u54c1\u3002",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 18,
+          "yPos": 144,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "arsmagica2:block 4",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 26,
+          "yPos": 162,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "arsmagica2:item_ore 4",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 225,
+          "yPos": 50,
+          "width": 28.0,
+          "height": 28.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "sccraftingrunes:ItemCommonMat",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 42,
+          "yPos": 125,
+          "width": 162.0,
+          "height": 71.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "\u65e5\u9577\u77f3\u7926\u5e38\u51fa\u73fe\u5728\u5927\u578b\u7194\u5ca9\u6c60\u4e2d\u6216\u4e0b\u65b9\uff0c\u7121\u8ad6\u662f\u4e3b\u4e16\u754c\u5de8\u5751\u88e1\u7684\u7194\u5ca9\u6c60\uff0c\u9084\u662f\u5730\u7344\u90fd\u627e\u5f97\u5230\u3002\u559d\u4e0b\u4e00\u74f6\u6297\u706b\u85e5\u6c34\uff0c\u5e36\u4e0a\u4e00\u628a\u5920\u597d\u7684\u93ac\uff0c\u518d\u6f5b\u5165\u7194\u5ca9\u6c60\u6316\u6398\u3002 ",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 257,
+          "yPos": 20,
+          "width": 151.0,
+          "height": 80.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "\u4f60\u6703\u767c\u73fe\u67d0\u4e9b\u914d\u65b9\u9700\u8981\u9019\u4e9b\u6cf0\u5766\u80fd\u91cf\u7b26\u6587\u5167\u5728\u7684\u80fd\u91cf\u3002\u6cf0\u5766\u5df2\u5c07\u5176\u4e2d\u5927\u591a\u6578\u56e4\u7a4d\u5728\u6563\u5e03\u5730\u5716\u5404\u8655\u7684\u5730\u7262\u4e2d\u3002\u4f60\u5fc5\u9808\u63a2\u7d22\u9019\u4e9b\u5730\u7262\uff0c\u5f9e\u5132\u7269\u7bb1\u88e1\u627e\u51fa\u7b26\u6587\u3002  \n\n\u5b83\u5011\u4e5f\u80fd\u900f\u904e\u5206\u5b50\u8f49\u63db\u5668\u88fd\u4f5c\u3002",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 9
+        },
+        {
+          "xPos": 228,
+          "yPos": 141,
+          "width": 23.0,
+          "height": 23.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "abyssalcraft:ccluster2",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 10
+        },
+        {
+          "xPos": 229,
+          "yPos": 166,
+          "width": 27.0,
+          "height": 27.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "abyssalcraft:coraliumore",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 11
+        },
+        {
+          "xPos": 258,
+          "yPos": 147,
+          "width": 150.0,
+          "height": 49.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "\u73ca\u745a\u7926\u77f3\u53ea\u80fd\u5728\u73ca\u745a\u6cbc\u6fa4\u3001\u9ed1\u6697\u4e4b\u5730\u5c71\u8108\u8207\u6d77\u6d0b\u751f\u614b\u57df\u627e\u5230\uff0c\u7576\u7136\u4e5f\u80fd\u5728 AbyssalCraft \u7dad\u5ea6\u4e2d\u767c\u73fe\u3002",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 12
+        }
+      ],
+      "pageNumber": 6,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 39,
+          "yPos": 14,
+          "width": 138.0,
+          "height": 32.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Craft_Of_The_Titans_Guide/Flight.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 106,
+          "yPos": 52,
+          "width": 97.0,
+          "height": 96.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "\u98db\u884c\u548c\u8a31\u591a\u5167\u5bb9\u4e00\u6a23\uff0c\u6703\u96a8\u9032\u5ea6\u9010\u6b65\u958b\u653e\u3002\u904e\u53bb\u90a3\u7a2e\u958b\u5c40\u5c31\u76f4\u885d\u5674\u5c04\u80cc\u5305\u6216\u5929\u4f7f\u6307\u74b0\uff0c\u5f9e\u6b64\u8b93\u6230\u9b25\u8207\u63a2\u7d22\u5931\u53bb\u610f\u7fa9\u7684\u65e5\u5b50\u5df2\u7d93\u7d50\u675f\u4e86\u3002",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 23,
+          "yPos": 49,
+          "width": 80.0,
+          "height": 88.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Craft_Of_The_Titans_Guide/Slide 7.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 21,
+          "yPos": 139,
+          "width": 137.0,
+          "height": 53.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "    \u5230\u4e86\u5b83\u5011\u61c9\u8a72\u51fa\u73fe\u7684\u5f8c\u671f\uff0c\u4f60\u4ecd\u7136\u80fd\u53d6\u5f97\u5674\u5c04\u80cc\u5305\u8207\u5929\u4f7f\u6307\u74b0\u3002\u5728\u6b64\u4e4b\u524d\uff0c\u98db\u7a7a\u8247\u8207\u9f8d\u5750\u9a0e\u4e5f\u662f\u53ef\u884c\u7684\u9078\u64c7\u3002",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 150,
+          "yPos": 133,
+          "width": 54.0,
+          "height": 54.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "dragonmounts:dragon_egg 2",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 221,
+          "yPos": 14,
+          "width": 178.0,
+          "height": 27.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Craft_Of_The_Titans_Guide/Combat.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 229,
+          "yPos": 42,
+          "width": 180.0,
+          "height": 77.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "\u672c\u6a21\u7d44\u5305\u5b89\u88dd\u4e86\u591a\u500b\u5927\u5e45\u63d0\u9ad8\u751f\u7269\u96e3\u5ea6\u7684\u6a21\u7d44\uff0c\u5305\u62ec\u6210\u9577\u5f0f\u751f\u547d\u503c\u8207\u984d\u5916 AI\u3002\u5728\u904a\u6232\u6700\u524d\u671f\uff0c\u8840\u6708\u671f\u9593\u6700\u597d\u628a\u5b83\u5011\u5f15\u96e2\u57fa\u5730\uff0c\u514d\u5f97\u5b83\u5011\u70b8\u6389\u6602\u8cb4\u6a5f\u5668\u3002",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 227,
+          "yPos": 126,
+          "width": 53.0,
+          "height": 69.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/Craft_Of_The_Titans_Guide/SafetyHut.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 9
+        },
+        {
+          "xPos": 285,
+          "yPos": 117,
+          "width": 124.0,
+          "height": 85.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "\u53ef\u4ee5\u8003\u616e\u5728\u96e2\u57fa\u5730\u7d04 6 \u500b\u5340\u584a\u7684\u5730\u65b9\uff0c\u7528\u5f37\u5316\u77f3\u5efa\u9020\u4e00\u9593\u5c0f\u5c4b\uff0c\u56db\u5468\u7559\u4e0b\u53ef\u4ee5\u653b\u64ca\u751f\u7269\u7684\u7a97\u53e3\u3002\u8840\u6708\u5373\u5c07\u964d\u81e8\u6642\u5c31\u8dd1\u4f86\u9019\u88e1\uff0c\u6e96\u5099\u6230\u9b25\u3002",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 10
+        }
+      ],
+      "pageNumber": 2,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        }
+      ],
+      "pageNumber": 9,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        }
+      ],
+      "pageNumber": 11,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        }
+      ],
+      "pageNumber": 16,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        }
+      ],
+      "pageNumber": 12,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        }
+      ],
+      "pageNumber": 17,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        }
+      ],
+      "pageNumber": 13,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        }
+      ],
+      "pageNumber": 15,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        }
+      ],
+      "pageNumber": 14,
+      "isScrollable": false
+    }
+  ],
+  "defaultIDs": [
+    "enchiridion_default_buttons"
+  ]
+}

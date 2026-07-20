@@ -1,0 +1,172 @@
+{
+  "uniqueName": "Day_One",
+  "saveName": "Day_One",
+  "displayName": "\u7b2c\u4e00\u5929",
+  "displayInfo": "",
+  "colorHex": "FFFFFFFF",
+  "language": "en_US",
+  "hasCustomIcon": true,
+  "showBackground": true,
+  "legacyTexture": false,
+  "backgroundResource": "enchiridion:textures/books/rustic2.png",
+  "backgroundStartX": -10,
+  "backgroundStartY": -10,
+  "backgroundEndX": 440,
+  "backgroundEndY": 240,
+  "defaultPage": 0,
+  "isLocked": false,
+  "forgetPageOnClose": false,
+  "book": [
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 44,
+          "yPos": 19,
+          "width": 158.0,
+          "height": 13.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "\u7b2c\u4e00\u5929\u7684\u5e7e\u500b\u5c0f\u63d0\u793a",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 21,
+          "yPos": 35,
+          "width": 183.0,
+          "height": 87.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "1.  \u9019\u500b\u6a21\u7d44\u5305\u7684\u7bc0\u594f\u4e0d\u50cf\u5927\u591a\u6578\u6a21\u7d44\u5305\u90a3\u9ebc\u7de9\u6162\u3002\u5728\u81f3\u5c11\u5efa\u7acb\u4e00\u5ea7\u53ef\u4ee5\u8eb2\u907f\u7684\u81e8\u6642\u57fa\u5730\u524d\uff0c\u82b1\u592a\u591a\u6642\u9593\u63a2\u7d22\u8207\u6536\u96c6\u96f6\u788e\u8cc7\u6e90\uff0c\u5f88\u53ef\u80fd\u6703\u8b93\u4f60\u88ab\u67d0\u7a2e\u96e3\u7e8f\u7684\u751f\u7269\u7fa4\u5fb9\u5e95\u58d3\u57ae\u3002 ",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 226,
+          "yPos": 30,
+          "width": 184.0,
+          "height": 92.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "3.  \u4fe1\u4efb\u4efb\u52d9\u66f8\u3002\u5f9e\u7b2c\u4e00\u5206\u9418\u958b\u59cb\uff0c\u5b83\u5c31\u6703\u5f15\u5c0e\u4f60\u53d6\u5f97\u524d\u671f\u9700\u8981\u7684\u4e00\u5207\u3002\u5982\u679c\u7e3d\u662f\u6b7b\u4ea1\u6216\u6328\u9913\uff0c\u53ef\u80fd\u8868\u793a\u4f60\u6c92\u6709\u6301\u7e8c\u5b8c\u6210\u4efb\u52d9\u3002\u4efb\u52d9\u6703\u5927\u65b9\u63d0\u4f9b\u6b66\u5668\u3001\u5e87\u8b77\u6240\u3001\u8b77\u7532\u8207\u98df\u7269\u7b49\u734e\u52f5\u3002",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 21,
+          "yPos": 122,
+          "width": 181.0,
+          "height": 92.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "2.  \u76e1\u65e9\u9032\u5165\u9078\u9805\u8a2d\u5b9a\u5feb\u6377\u9375\uff0c\u56e0\u70ba\u90e8\u5206\u6309\u9375\u53ef\u80fd\u767c\u751f\u885d\u7a81\u3002\u7279\u5225\u8981\u78ba\u8a8d Better Questing \u4efb\u52d9\u66f8\u3001\u7926\u77f3\u6316\u6398\u8207 Levels GUI \u7684\u5feb\u6377\u9375\u90fd\u53ef\u6b63\u5e38\u4f7f\u7528\u3002  ",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 229,
+          "yPos": 120,
+          "width": 182.0,
+          "height": 77.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "4.  \u9019\u500b\u6a21\u7d44\u5305\u4e2d\u7684\u751f\u7269\u65e2\u5147\u60e1\u53c8\u919c\u964b\uff0c\u958b\u5c40\u751a\u81f3\u5b8c\u5168\u4e0d\u8b1b\u7406\u3002\u4f60\u6703\u6b7b\u3002\u4f46\u5225\u7070\u5fc3\uff0c\u5f88\u5feb\u4f60\u5c31\u6703\u624b\u6301\u524d\u6240\u672a\u898b\u7684\u5f37\u5927\u6b66\u5668\u3002\u5c40\u52e2\u6703\u9006\u8f49\uff0c\u518d\u7d66\u5b83\u4e00\u9ede\u6642\u9593\u3002",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        }
+      ],
+      "pageNumber": 0,
+      "isScrollable": false
+    }
+  ],
+  "defaultIDs": [
+    "enchiridion_default_buttons"
+  ]
+}
